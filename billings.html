@@ -54,14 +54,18 @@
         left: 5px;
         transform: rotate(45deg);
       }
-details[open] summary img {
-  transform: rotate(45deg);
-  transition: transform 0.3s ease;
-}
+details summary img {
+        transform: rotate(45deg);
+        transition: transform 0.3s ease;
+      }
+      details[open] summary img {
+        transform: rotate(0deg);
+        transition: transform 0.3s ease;
+      }
 
-summary img {
-  transition: transform 0.3s ease;
-}
+      summary img {
+        transition: transform 0.3s ease;
+      }
     </style>
   </head>
   <body>
